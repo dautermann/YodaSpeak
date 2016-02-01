@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255AAE091C5EBA5C00E7FB3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255AAE081C5EBA5C00E7FB3A /* AppDelegate.swift */; };
+		255AAE0B1C5EBA5C00E7FB3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255AAE0A1C5EBA5C00E7FB3A /* ViewController.swift */; };
+		255AAE0E1C5EBA5C00E7FB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255AAE0C1C5EBA5C00E7FB3A /* Main.storyboard */; };
+		255AAE101C5EBA5C00E7FB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255AAE0F1C5EBA5C00E7FB3A /* Assets.xcassets */; };
+		255AAE131C5EBA5C00E7FB3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255AAE111C5EBA5C00E7FB3A /* LaunchScreen.storyboard */; };
+		255AAE1E1C5EBA5C00E7FB3A /* YodaSpeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255AAE1D1C5EBA5C00E7FB3A /* YodaSpeakTests.swift */; };
+		257EB7F61C5F1AC2005FA7C9 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257EB7F51C5F1AC2005FA7C9 /* Translation.swift */; };
+		257EB7F81C5F8103005FA7C9 /* YodaTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257EB7F71C5F8103005FA7C9 /* YodaTranslation.swift */; };
+		25B8FB931C5F9892006C563C /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B8FB921C5F9891006C563C /* PlaceholderTextView.swift */; };
+		25B8FB951C5FADF3006C563C /* L33tTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B8FB941C5FADF3006C563C /* L33tTranslation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255AAE1A1C5EBA5C00E7FB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255AADFD1C5EBA5C00E7FB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255AAE041C5EBA5C00E7FB3A;
+			remoteInfo = YodaSpeak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255AAE051C5EBA5C00E7FB3A /* YodaSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YodaSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		255AAE081C5EBA5C00E7FB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		255AAE0A1C5EBA5C00E7FB3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		255AAE0D1C5EBA5C00E7FB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		255AAE0F1C5EBA5C00E7FB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255AAE121C5EBA5C00E7FB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		255AAE141C5EBA5C00E7FB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255AAE191C5EBA5C00E7FB3A /* YodaSpeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YodaSpeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255AAE1D1C5EBA5C00E7FB3A /* YodaSpeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YodaSpeakTests.swift; sourceTree = "<group>"; };
+		255AAE1F1C5EBA5C00E7FB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257EB7F51C5F1AC2005FA7C9 /* Translation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
+		257EB7F71C5F8103005FA7C9 /* YodaTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YodaTranslation.swift; sourceTree = "<group>"; };
+		25B8FB921C5F9891006C563C /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
+		25B8FB941C5FADF3006C563C /* L33tTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L33tTranslation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255AAE021C5EBA5C00E7FB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255AAE161C5EBA5C00E7FB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255AADFC1C5EBA5C00E7FB3A = {
+			isa = PBXGroup;
+			children = (
+				255AAE071C5EBA5C00E7FB3A /* YodaSpeak */,
+				255AAE1C1C5EBA5C00E7FB3A /* YodaSpeakTests */,
+				255AAE061C5EBA5C00E7FB3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255AAE061C5EBA5C00E7FB3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255AAE051C5EBA5C00E7FB3A /* YodaSpeak.app */,
+				255AAE191C5EBA5C00E7FB3A /* YodaSpeakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255AAE071C5EBA5C00E7FB3A /* YodaSpeak */ = {
+			isa = PBXGroup;
+			children = (
+				255AAE081C5EBA5C00E7FB3A /* AppDelegate.swift */,
+				255AAE0A1C5EBA5C00E7FB3A /* ViewController.swift */,
+				257EB7F51C5F1AC2005FA7C9 /* Translation.swift */,
+				257EB7F71C5F8103005FA7C9 /* YodaTranslation.swift */,
+				25B8FB941C5FADF3006C563C /* L33tTranslation.swift */,
+				255AAE0C1C5EBA5C00E7FB3A /* Main.storyboard */,
+				25B8FB921C5F9891006C563C /* PlaceholderTextView.swift */,
+				255AAE0F1C5EBA5C00E7FB3A /* Assets.xcassets */,
+				255AAE111C5EBA5C00E7FB3A /* LaunchScreen.storyboard */,
+				255AAE141C5EBA5C00E7FB3A /* Info.plist */,
+			);
+			path = YodaSpeak;
+			sourceTree = "<group>";
+		};
+		255AAE1C1C5EBA5C00E7FB3A /* YodaSpeakTests */ = {
+			isa = PBXGroup;
+			children = (
+				255AAE1D1C5EBA5C00E7FB3A /* YodaSpeakTests.swift */,
+				255AAE1F1C5EBA5C00E7FB3A /* Info.plist */,
+			);
+			path = YodaSpeakTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255AAE041C5EBA5C00E7FB3A /* YodaSpeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255AAE221C5EBA5C00E7FB3A /* Build configuration list for PBXNativeTarget "YodaSpeak" */;
+			buildPhases = (
+				255AAE011C5EBA5C00E7FB3A /* Sources */,
+				255AAE021C5EBA5C00E7FB3A /* Frameworks */,
+				255AAE031C5EBA5C00E7FB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YodaSpeak;
+			productName = YodaSpeak;
+			productReference = 255AAE051C5EBA5C00E7FB3A /* YodaSpeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255AAE181C5EBA5C00E7FB3A /* YodaSpeakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255AAE251C5EBA5C00E7FB3A /* Build configuration list for PBXNativeTarget "YodaSpeakTests" */;
+			buildPhases = (
+				255AAE151C5EBA5C00E7FB3A /* Sources */,
+				255AAE161C5EBA5C00E7FB3A /* Frameworks */,
+				255AAE171C5EBA5C00E7FB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255AAE1B1C5EBA5C00E7FB3A /* PBXTargetDependency */,
+			);
+			name = YodaSpeakTests;
+			productName = YodaSpeakTests;
+			productReference = 255AAE191C5EBA5C00E7FB3A /* YodaSpeakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255AADFD1C5EBA5C00E7FB3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Michael Dautermann";
+				TargetAttributes = {
+					255AAE041C5EBA5C00E7FB3A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					255AAE181C5EBA5C00E7FB3A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 255AAE041C5EBA5C00E7FB3A;
+					};
+				};
+			};
+			buildConfigurationList = 255AAE001C5EBA5C00E7FB3A /* Build configuration list for PBXProject "YodaSpeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255AADFC1C5EBA5C00E7FB3A;
+			productRefGroup = 255AAE061C5EBA5C00E7FB3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255AAE041C5EBA5C00E7FB3A /* YodaSpeak */,
+				255AAE181C5EBA5C00E7FB3A /* YodaSpeakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255AAE031C5EBA5C00E7FB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255AAE131C5EBA5C00E7FB3A /* LaunchScreen.storyboard in Resources */,
+				255AAE101C5EBA5C00E7FB3A /* Assets.xcassets in Resources */,
+				255AAE0E1C5EBA5C00E7FB3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255AAE171C5EBA5C00E7FB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255AAE011C5EBA5C00E7FB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257EB7F81C5F8103005FA7C9 /* YodaTranslation.swift in Sources */,
+				255AAE0B1C5EBA5C00E7FB3A /* ViewController.swift in Sources */,
+				255AAE091C5EBA5C00E7FB3A /* AppDelegate.swift in Sources */,
+				257EB7F61C5F1AC2005FA7C9 /* Translation.swift in Sources */,
+				25B8FB931C5F9892006C563C /* PlaceholderTextView.swift in Sources */,
+				25B8FB951C5FADF3006C563C /* L33tTranslation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255AAE151C5EBA5C00E7FB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255AAE1E1C5EBA5C00E7FB3A /* YodaSpeakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255AAE1B1C5EBA5C00E7FB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255AAE041C5EBA5C00E7FB3A /* YodaSpeak */;
+			targetProxy = 255AAE1A1C5EBA5C00E7FB3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255AAE0C1C5EBA5C00E7FB3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255AAE0D1C5EBA5C00E7FB3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		255AAE111C5EBA5C00E7FB3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255AAE121C5EBA5C00E7FB3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		255AAE201C5EBA5C00E7FB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255AAE211C5EBA5C00E7FB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255AAE231C5EBA5C00E7FB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YodaSpeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.YodaSpeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		255AAE241C5EBA5C00E7FB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YodaSpeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.YodaSpeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		255AAE261C5EBA5C00E7FB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YodaSpeakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.YodaSpeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YodaSpeak.app/YodaSpeak";
+			};
+			name = Debug;
+		};
+		255AAE271C5EBA5C00E7FB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YodaSpeakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myke.YodaSpeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YodaSpeak.app/YodaSpeak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255AAE001C5EBA5C00E7FB3A /* Build configuration list for PBXProject "YodaSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255AAE201C5EBA5C00E7FB3A /* Debug */,
+				255AAE211C5EBA5C00E7FB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255AAE221C5EBA5C00E7FB3A /* Build configuration list for PBXNativeTarget "YodaSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255AAE231C5EBA5C00E7FB3A /* Debug */,
+				255AAE241C5EBA5C00E7FB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255AAE251C5EBA5C00E7FB3A /* Build configuration list for PBXNativeTarget "YodaSpeakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255AAE261C5EBA5C00E7FB3A /* Debug */,
+				255AAE271C5EBA5C00E7FB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255AADFD1C5EBA5C00E7FB3A /* Project object */;
+}

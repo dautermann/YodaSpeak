@@ -29,7 +29,7 @@ class PlaceholderTextView: UITextView, UITextViewDelegate {
     {
         super.init(coder: aDecoder)
         
-        let tapDismiss = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tapDismiss = UITapGestureRecognizer(target: self, action: "toggleKeyboard")
         self.addGestureRecognizer(tapDismiss)
         
         self.delegate = self
@@ -39,14 +39,22 @@ class PlaceholderTextView: UITextView, UITextViewDelegate {
     {
         super.init(frame: frame, textContainer: textContainer)
         
-        let tapDismiss = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tapDismiss = UITapGestureRecognizer(target: self, action: "toggleKeyboard")
         self.addGestureRecognizer(tapDismiss)
         
         self.delegate = self
     }
     
-    func dismissKeyboard(){
-        self.resignFirstResponder()
+    func toggleKeyboard()
+    {
+        // use gesture recognizer to dismiss the keyboard
+        // if this text view already has focus
+        if self.isFirstResponder()
+        {
+            self.resignFirstResponder()
+        } else {
+            self.becomeFirstResponder()
+        }
     }
     
     func checkAndSet(textView: UITextView)

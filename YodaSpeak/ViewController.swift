@@ -16,14 +16,20 @@ class ViewController: UIViewController {
     
     var translationObject : Translation
     
-    // we'll use this to bump the down arrow button to the left a little bit
-    // to center things a bit more friendly
+    // this outlet is used to bump the down arrow button to the left a little bit
+    // to center things in a more friendly way when the up arrow
+    // is visible and it's functionality is available.
     @IBOutlet var buttonCenterXConstraint : NSLayoutConstraint!
     
     required init?(coder aDecoder: NSCoder)
     {
-        translationObject = YodaTranslation.init()
-        
+        // we could add in some UI (e.g. a picker?) to easily
+        // switch API's to L33tTranslation or text-to-speech (where the 
+        // Translation actually pipes the audio data through the speaker 
+        // while returning some string)
+        // translationObject = YodaTranslation.init() // L33tTranslation.init()
+        translationObject = L33tTranslation.init()
+
         super.init(coder: aDecoder)
     }
 
@@ -45,7 +51,6 @@ class ViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBAction func translateToButtonTouched(sender: UIButton)
@@ -69,7 +74,6 @@ class ViewController: UIViewController {
     func untranslateCompleted(toString: String)
     {
         dispatch_async(dispatch_get_main_queue()) {
-            // update UI on main thread
             self.upperTextView.text = toString
         }
     }

@@ -15,6 +15,7 @@
 		255AAE1E1C5EBA5C00E7FB3A /* YodaSpeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255AAE1D1C5EBA5C00E7FB3A /* YodaSpeakTests.swift */; };
 		257EB7F61C5F1AC2005FA7C9 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257EB7F51C5F1AC2005FA7C9 /* Translation.swift */; };
 		257EB7F81C5F8103005FA7C9 /* YodaTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257EB7F71C5F8103005FA7C9 /* YodaTranslation.swift */; };
+		258780A11C612C01004588BA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 258780A01C612C01004588BA /* README.md */; };
 		25B8FB931C5F9892006C563C /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B8FB921C5F9891006C563C /* PlaceholderTextView.swift */; };
 		25B8FB951C5FADF3006C563C /* L33tTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B8FB941C5FADF3006C563C /* L33tTranslation.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		255AAE1F1C5EBA5C00E7FB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257EB7F51C5F1AC2005FA7C9 /* Translation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
 		257EB7F71C5F8103005FA7C9 /* YodaTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YodaTranslation.swift; sourceTree = "<group>"; };
+		258780A01C612C01004588BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		25B8FB921C5F9891006C563C /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		25B8FB941C5FADF3006C563C /* L33tTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L33tTranslation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 		255AAE071C5EBA5C00E7FB3A /* YodaSpeak */ = {
 			isa = PBXGroup;
 			children = (
+				258780A01C612C01004588BA /* README.md */,
 				255AAE081C5EBA5C00E7FB3A /* AppDelegate.swift */,
 				255AAE0A1C5EBA5C00E7FB3A /* ViewController.swift */,
 				257EB7F51C5F1AC2005FA7C9 /* Translation.swift */,
@@ -212,6 +215,7 @@
 				257EB7F81C5F8103005FA7C9 /* YodaTranslation.swift in Sources */,
 				255AAE0B1C5EBA5C00E7FB3A /* ViewController.swift in Sources */,
 				255AAE091C5EBA5C00E7FB3A /* AppDelegate.swift in Sources */,
+				258780A11C612C01004588BA /* README.md in Sources */,
 				257EB7F61C5F1AC2005FA7C9 /* Translation.swift in Sources */,
 				25B8FB931C5F9892006C563C /* PlaceholderTextView.swift in Sources */,
 				25B8FB951C5FADF3006C563C /* L33tTranslation.swift in Sources */,

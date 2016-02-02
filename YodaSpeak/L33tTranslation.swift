@@ -33,7 +33,7 @@ class L33tTranslation: Translation {
     {
         if let urlEncodedSentence = fromString.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
         {
-            if let url = NSURL(string: "https://montanaflynn-l33t-sp34k.p.mashape.com/encode=\(urlEncodedSentence)")
+            if let url = NSURL(string: "https://montanaflynn-l33t-sp34k.p.mashape.com/encode?text=\(urlEncodedSentence)")
             {
                 performGetWithServer(url, closure: closure)
             }
@@ -44,7 +44,7 @@ class L33tTranslation: Translation {
     {
         if let urlEncodedSentence = fromString.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
         {
-            if let url = NSURL(string: "https://montanaflynn-l33t-sp34k.p.mashape.com/decode=\(urlEncodedSentence)")
+            if let url = NSURL(string: "https://montanaflynn-l33t-sp34k.p.mashape.com/decode?text=\(urlEncodedSentence)")
             {
                 performGetWithServer(url, closure: closure)
             }

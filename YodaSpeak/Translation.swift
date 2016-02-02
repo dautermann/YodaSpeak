@@ -6,13 +6,9 @@
 //  Copyright © 2016 Michael Dautermann. All rights reserved.
 //
 
+// a base class into which we can put different kinds of Translation API's.
+
 import UIKit
-
-protocol TranslationResults {
-
-    func translationCompleted(toString: String)
-
-}
 
 class Translation: NSObject, NSURLSessionDelegate, NSURLSessionTaskDelegate
 {
@@ -69,6 +65,7 @@ class Translation: NSObject, NSURLSessionDelegate, NSURLSessionTaskDelegate
                     closure(toString: translatedString)
                 }
             } else {
+                // unexpected error response data might go here...
                 print("Response: \(response)")
             }
         })

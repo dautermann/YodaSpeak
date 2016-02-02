@@ -45,8 +45,15 @@ class PlaceholderTextView: UITextView, UITextViewDelegate {
         self.delegate = self
     }
     
-    func dismissKeyboard(){
-        self.resignFirstResponder()
+    func dismissKeyboard()
+    {
+//        if self.isFirstResponder()
+//        {
+//print("dismiss keyboard")
+//            self.resignFirstResponder()
+//        } else {
+            self.becomeFirstResponder()
+//        }
     }
     
     func checkAndSet(textView: UITextView)

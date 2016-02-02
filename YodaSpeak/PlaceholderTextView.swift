@@ -18,7 +18,7 @@ class PlaceholderTextView: UITextView, UITextViewDelegate {
             }
         }
     }
-        
+
     var placeholderString : String = "" {
         didSet {
             checkAndSet(self)
@@ -45,15 +45,8 @@ class PlaceholderTextView: UITextView, UITextViewDelegate {
         self.delegate = self
     }
     
-    func dismissKeyboard()
-    {
-//        if self.isFirstResponder()
-//        {
-//print("dismiss keyboard")
-//            self.resignFirstResponder()
-//        } else {
-            self.becomeFirstResponder()
-//        }
+    func dismissKeyboard(){
+        self.resignFirstResponder()
     }
     
     func checkAndSet(textView: UITextView)

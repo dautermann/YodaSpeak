@@ -27,8 +27,8 @@ class ViewController: UIViewController {
         // switch API's to L33tTranslation or text-to-speech (where the 
         // Translation actually pipes the audio data through the speaker 
         // while returning some string)
-        // translationObject = YodaTranslation.init() // L33tTranslation.init()
-        translationObject = L33tTranslation.init()
+        translationObject = YodaTranslation.init() 
+        //translationObject = L33tTranslation.init()
 
         super.init(coder: aDecoder)
     }
